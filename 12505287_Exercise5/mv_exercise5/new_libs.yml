@@ -1,0 +1,15 @@
+name: machinevision
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - opencv
+  - pip:
+    - open3d
+    - torch
+    - torchvision
+    - pillow
